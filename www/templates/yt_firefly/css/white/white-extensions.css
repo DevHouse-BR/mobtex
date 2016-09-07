@@ -1,0 +1,185 @@
+/*
+ * YOOtheme CSS file
+ *
+ * @author yootheme.com
+ * @copyright Copyright (C) 2007 YOOtheme Ltd. & Co. KG. All rights reserved.
+ */ 
+
+div#yt-login .yt-username input, div#yt-login .yt-password input {
+	background: url(../../images/white/login_bg.png) 0 0 no-repeat;
+}
+
+div#yt-login .yt-username input:hover, div#yt-login .yt-username input.sfhover {
+	background: url(../../images/white/login_bg_hover.png) 0 0 no-repeat;
+	color: #000000;
+}
+
+div#yt-login .yt-password input:hover, div#yt-login .yt-password input.sfhover {
+	background: url(../../images/white/login_bg_hover.png) 0 0 no-repeat;
+	color: #000000;
+}
+
+div#yt-login .yt-username input:focus, div#yt-login .yt-username input.sffocus {
+	background: url(../../images/white/login_bg_hover.png) 0 0 no-repeat;
+	color: #000000;
+}
+
+div#yt-login .yt-password input:focus, div#yt-login .yt-password input.sffocus {
+	background: url(../../images/white/login_bg_hover.png) 0 0 no-repeat;
+	color: #000000;
+}
+
+div#yt-login .yt-login-button button {
+	background: url(../../images/white/login_button.png) 0 0 no-repeat;
+}
+
+div#yt-login .yt-login-button button:hover, div#yt-login .yt-login-button button.sfhover {
+	background: url(../../images/white/login_button_hover.png) 0 0 no-repeat;
+}
+
+div#yt-logout .yt-logout-button button {
+	background: url(../../images/white/logout_button.png) 0 0 no-repeat;
+}
+
+div#yt-logout .yt-logout-button button:hover, div#yt-logout .yt-logout-button button.sfhover {
+	background: url(../../images/white/logout_button_hover.png) 0 0 no-repeat;
+	color: #000000;
+}
+
+#right div.drawer-v ul.yoo-sliderlist .item-bl {
+	background: url(../../images/white/drawer_item_bl.png) 0 100% no-repeat;
+}
+
+#right div.drawer-v ul.yoo-sliderlist .active .item-bl {
+	background: url(../../images/white/drawer_item_bl_hover.png) 0 100% no-repeat;
+}
+
+#right div.drawer-v ul.yoo-sliderlist .item-br {
+	background: url(../../images/white/drawer_item_br.png) 100% 100% no-repeat;
+}
+
+#right div.drawer-v ul.yoo-sliderlist .active .item-br {
+	background: url(../../images/white/drawer_item_br_hover.png) 100% 100% no-repeat;
+}
+
+#right div.drawer-v ul.yoo-sliderlist .item-b {
+	background: url(../../images/white/drawer_item_b.png) 0 100% repeat-x;
+}
+
+#right div.drawer-v ul.yoo-sliderlist .active .item-b {
+	background: url(../../images/white/drawer_item_b_hover.png) 0 100% repeat-x;
+}
+
+#right div.drawer-v ul.yoo-sliderlist .item-l {
+	background: url(../../images/white/drawer_item_l.png) 0 0 repeat-y;
+}
+
+#right div.drawer-v ul.yoo-sliderlist .item-r {
+	background: url(../../images/white/drawer_item_r.png) 100% 0 repeat-y;
+}
+
+#right div.drawer-v ul.yoo-sliderlist .article {
+	background: url(../../images/white/drawer_item_bg.png) 0 100% repeat-x;
+}
+
+#right div.drawer-v ul.yoo-sliderlist .active .article {
+	background: url(../../images/white/drawer_item_bg.png) 0 100% repeat-x;
+}
+
+#right div.drawer-v ul.yoo-sliderlist .article h3 {
+	color: #000000;
+}
+
+div.slider-h ul.yoo-sliderlist li.first {
+	background: url(../../images/white/slider_item_l.png) 0 0 no-repeat;
+}
+
+div.slider-h ul.yoo-sliderlist li .item-r {
+	border-right: 1px solid #b4b4b4;
+}
+
+div.slider-h ul.yoo-sliderlist li:hover.first {
+	background: url(../../images/white/slider_item_l_hover.png) 0 0 no-repeat;
+}
+
+div.slider-h ul.yoo-sliderlist li {
+	background: url(../../images/white/slider_item_m.png) 0 0 repeat-x;
+}
+
+div.slider-h ul.yoo-sliderlist li:hover {
+	background: url(../../images/white/slider_item_m_hover.png) 0 0 repeat-x;
+}
+
+div.slider-h ul.yoo-sliderlist li.last {
+	background: url(../../images/white/slider_item_r.png) 100% 0 no-repeat;
+}
+
+div.slider-h ul.yoo-sliderlist li.last .item-r {
+	border-right: none;
+}
+
+div.slider-h ul.yoo-sliderlist li:hover.last {
+	background: url(../../images/white/slider_item_r_hover.png) 100% 0 no-repeat;
+}
+
+div.slider-h ul.yoo-sliderlist .article h3 {
+	color: #000000;
+}
+
+/* YOOcarousel */
+div.style-a div.yoo-carousel {
+	background: #ffffff;
+}
+
+div.style-a div.yoo-carousel .item-b {
+	background: url(../../images/white/carousel_item_b.png) 0 100% repeat-x; 
+}
+
+div.style-a div.yoo-carousel .item-bl {
+	background: url(../../images/white/carousel_item_bl.png) 0 100% no-repeat; 
+}
+
+div.style-a div.yoo-carousel .item-br {
+	background: url(../../images/white/carousel_item_br.png) 100% 100% no-repeat; 
+}
+
+div.style-a div.yoo-carousel ul.panel-top, div.style-a div.yoo-carousel ul.panel-bottom {
+	background: url(../../images/white/carousel_tab_bg.png) 0 100% repeat-x; 
+}
+
+div.style-a div.yoo-carousel ul.panel-top li a, div.style-a div.yoo-carousel ul.panel-bottom li a {
+	background: url(../../images/white/carousel_tab_m.png) 0 0 repeat-x; 
+}
+
+div.style-a div.yoo-carousel ul.panel-top li.selected a, div.style-a div.yoo-carousel ul.panel-bottom li.selected a {
+	background: url(../../images/white/carousel_tab_m_active.png) 0 0 repeat-x; 
+}
+
+div.style-a div.yoo-carousel ul.panel-top li a span, div.style-a div.yoo-carousel ul.panel-bottom li a span {
+	background: url(../../images/white/carousel_tab_l.png) 0 0 no-repeat; 
+}
+
+div.style-a div.yoo-carousel ul.panel-top li.selected a span, div.style-a div.yoo-carousel ul.panel-bottom li.selected a span {
+	background: url(../../images/white/carousel_tab_l_active.png) 0 0 no-repeat; 
+}
+
+div.style-a div.yoo-carousel ul.panel-top li a span span, div.style-a div.yoo-carousel ul.panel-bottom li a span span {
+	background: url(../../images/white/carousel_tab_r.png) 100% 0 no-repeat; 
+}
+
+div.style-a div.yoo-carousel ul.panel-top li.selected a span span, div.style-a div.yoo-carousel ul.panel-bottom li.selected a span span {
+	background: url(../../images/white/carousel_tab_r_active.png) 100% 0 no-repeat; 
+}
+
+div.style-a div.yoo-carousel li a:link, div.style-a div.yoo-carousel li a:visited {
+	color: #969696;
+}
+
+div.style-a div.yoo-carousel li a:hover, div.style-a div.yoo-carousel li.selected a:link, div.style-a div.yoo-carousel li.selected a:visited {
+	color: #646464;
+}
+
+
+div.style-a div.yoo-carousel .article h3 {
+	color: #323232;
+}

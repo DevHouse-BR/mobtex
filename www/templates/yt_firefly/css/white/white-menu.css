@@ -1,0 +1,174 @@
+/*
+ * YOOtheme CSS file
+ *
+ * @author yootheme.com
+ * @copyright Copyright (C) 2007 YOOtheme Ltd. & Co. KG. All rights reserved.
+ */ 
+
+div#topmenu li a {
+	background: url(../../images/white/topmenu_item_bg.png) 0 4px no-repeat;
+}
+
+div#topmenu a:link, div#topmenu a:visited {
+	color: #646464;
+}
+
+div#topmenu a:hover {
+	color: #000000;
+}
+
+div#menu li {
+	border-top: 1px solid #C8C8C8;
+	border-left: 1px solid #C8C8C8;
+	border-right: 1px solid #C8C8C8;
+	background: #E6E6E6;
+}
+
+div#menu li a {
+	color: #646464;
+}
+
+div#menu a:link, div#menu a:visited {
+	color: #646464;
+}
+
+div#menu li:hover a, div#menu li a:hover {
+	color: #000000;
+}
+
+div#menu li.active {
+	background: #ffffff;
+}
+
+div#menu li.active a {
+	background: #ffffff;
+	color: #000000;
+}
+
+div#submenu li a, div#submenu li span {
+	color: #646464;
+}
+
+div#submenu a:link, div#submenu a:visited {
+	color: #646464;
+}
+
+div#submenu li.active a, div#submenu li.active a:hover, div#submenu li.active span, div#submenu li.active span:hover, div#submenu li span.sfhover { /* set active */
+	color: #000000;
+}
+
+div#submenu li a:hover, div#submenu li span:hover, div#submenu li span.sfhover {
+	color: #ffffff;
+}
+
+body.yellow div#submenu li a:hover, body.yellow div#submenu li span:hover, body.yellow div#submenu li span.sfhover {
+	color: #000000;
+}
+
+div#submenu li.level2 {
+	background: #ffffff;
+}
+
+div#submenu li.level2 a, div#submenu li.level2 span {
+	border: 1px solid #E6E6E6;
+}
+
+div#submenu li.parent {
+	background: #ffffff url(../../images/white/submenu_level2_item_parent.png) 0 0 no-repeat;
+}
+
+div#submenu li.level2 ul, div#submenu li.level2 div {
+	background: #ffffff;
+}
+
+div#submenu li.level2 li {
+	background: #f0f0f0;
+}
+
+div#submenu li.level3 a {
+	color: #646464;
+}
+
+div#submenu li.level3 a {
+	border: none;
+}
+
+div#submenu li.level3 a:hover {
+	color: #ffffff;
+}
+
+div#submenu li.level2 li.active a, div#submenu li.level2 li.active a:hover, div#submenu li.level2 li.active span, div#submenu li.level2 li.active span:hover, div#submenu li.level2 li span.sfhover { /* set active */
+	color: #000000;
+}
+
+div#submenu li.level2 li.level3 li.level4 a, div#submenu li.level2 li.level3 li.level4 span {
+	color: #646464;
+}
+
+div#submenu li.level2 li.level3 li.level4 a:hover, div#submenu li.level2 li.level3 li.active a:hover {
+	color: #000000;
+}
+
+div#othermenu li a, div#othermenu li span {
+	color: #646464;
+}
+
+div#othermenu a:link, div#othermenu a:visited {
+	color: #646464;
+}
+
+div#othermenu li.active a, div#othermenu li.active a:hover, div#othermenu li.active span, div#othermenu li.active span:hover, div#othermenu li span.sfhover { /* set active */
+	color: #000000;
+}
+
+div#othermenu li a:hover, div#othermenu li span:hover, div#othermenu li span.sfhover {
+	color: #ffffff;
+}
+
+body.yellow div#othermenu li a:hover, body.yellow div#othermenu li span:hover, body.yellow div#othermenu li span.sfhover {
+	color: #000000;
+}
+
+div#othermenu li.level1 {
+	background: #ffffff;
+}
+
+div#othermenu li.level1 a, div#othermenu li.level1 span {
+	border: 1px solid #E6E6E6;
+}
+
+div#othermenu li.parent {
+	background: #ffffff url(../../images/white/othermenu_level2_item_parent.png) 0 0 no-repeat;
+}
+
+div#othermenu li.level1 ul, div#othermenu li.level1 div {
+	background: #ffffff;
+}
+
+div#othermenu li.level1 li {
+	background: #f0f0f0;
+}
+
+div#othermenu li.level2 a {
+	color: #646464;
+}
+
+div#othermenu li.level2 a {
+	border: none;
+}
+
+div#othermenu li.level2 a:hover {
+	color: #ffffff;
+}
+
+div#othermenu li.level1 li.active a, div#othermenu li.level1 li.active a:hover, div#othermenu li.level1 li.active span, div#othermenu li.level1 li.active span:hover, div#othermenu li.level1 li span.sfhover { /* set active */
+	color: #000000;
+}
+
+div#othermenu li.level1 li.level2 li.level3 a, div#othermenu li.level1 li.level2 li.level3 span {
+	color: #646464;
+}
+
+div#othermenu li.level1 li.level2 li.level3 a:hover, div#othermenu li.level1 li.level2 li.active a:hover {
+	color: #000000;
+}

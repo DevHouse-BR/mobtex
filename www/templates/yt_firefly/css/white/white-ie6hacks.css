@@ -1,0 +1,58 @@
+/*
+ * YOOtheme CSS file
+ *
+ * @author yootheme.com
+ * @copyright Copyright (C) 2007 YOOtheme Ltd. & Co. KG. All rights reserved.
+ */ 
+
+div#menu li.active a:link, div#menu li.active a:visited {
+	color: #000000;
+}
+
+#right div.drawer-v ul.yoo-sliderlist .item-bl {
+	background: url(../../images/white/drawer_item_bl_ie6.png) 0 100% no-repeat;
+}
+
+#right div.drawer-v ul.yoo-sliderlist .active .item-bl {
+	background: url(../../images/white/drawer_item_bl_hover_ie6.png) 0 100% no-repeat;
+}
+
+#right div.drawer-v ul.yoo-sliderlist .item-br {
+	background: url(../../images/white/drawer_item_br_ie6.png) 100% 100% no-repeat;
+}
+
+#right div.drawer-v ul.yoo-sliderlist .active .item-br {
+	background: url(../../images/white/drawer_item_br_hover_ie6.png) 100% 100% no-repeat;
+}
+
+#right div.drawer-v ul.yoo-sliderlist .item-b {
+	background: url(../../images/white/drawer_item_b_ie6.png) 0 100% repeat-x;
+}
+
+#right div.drawer-v ul.yoo-sliderlist .active .item-b {
+	background: url(../../images/white/drawer_item_b_hover_ie6.png) 0 100% repeat-x;
+}
+
+div.slider-h ul.yoo-sliderlist li.first {
+	background: url(../../images/white/slider_item_l_ie6.png) 0 0 no-repeat;
+}
+
+div.slider-h ul.yoo-sliderlist li:hover.first {
+	background: url(../../images/white/slider_item_l_hover_ie6.png) 0 0 no-repeat;
+}
+
+div.slider-h ul.yoo-sliderlist li {
+	background: url(../../images/white/slider_item_m_ie6.png) 0 0 repeat-x;
+}
+
+div.slider-h ul.yoo-sliderlist li:hover {
+	background: url(../../images/white/slider_item_m_hover_ie6.png) 0 0 repeat-x;
+}
+
+div.slider-h ul.yoo-sliderlist li.last {
+	background: url(../../images/white/slider_item_r_ie6.png) 100% 0 no-repeat;
+}
+
+div.slider-h ul.yoo-sliderlist li:hover.last {
+	background: url(../../images/white/slider_item_r_hover_ie6.png) 100% 0 no-repeat;
+}

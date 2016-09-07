@@ -1,0 +1,53 @@
+/*
+ * YOOtheme CSS file
+ *
+ * @author yootheme.com
+ * @copyright Copyright (C) 2007 YOOtheme Ltd. & Co. KG. All rights reserved.
+ */ 
+
+div.search {
+	background: #FAFAFA;
+}
+
+div.search input.button {
+	background: url(../../images/white/search_button.png) 0 0 no-repeat;
+}
+
+div.search:hover, div#search div.sfhover  {
+	background: #ffffff;
+}
+
+div.search input:hover, div.search input.sfhover  {
+	color: #000000;
+}
+
+div.search input:focus, div.search input.sffocus  {
+	color: #000000;
+}
+
+body.green .contentheading, body.green .componentheading { color: #41b900; }
+
+.sectiontableheader {
+	background: #ffffff;
+	border-bottom: 1px solid #dcdcdc;
+}
+
+tr.sectiontableentry1 td {
+	background: #f0f0f0;
+	border-bottom: 1px solid #dcdcdc;
+}
+
+tr.sectiontableentry2 td {
+	background: #fafafa;
+	border-bottom: 1px solid #dcdcdc;
+}
+
+td.sectiontableentry1 {
+	background: #f0f0f0;
+	border-bottom: 1px solid #dcdcdc;
+}
+
+td.sectiontableentry2 {
+	background: #fafafa;
+	border-bottom: 1px solid #dcdcdc;
+}

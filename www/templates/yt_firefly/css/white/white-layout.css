@@ -1,0 +1,112 @@
+/*
+ * YOOtheme CSS file
+ *
+ * @author yootheme.com
+ * @copyright Copyright (C) 2007 YOOtheme Ltd. & Co. KG. All rights reserved.
+ */ 
+
+body#page {
+	background: #ffffff;
+}
+
+div#toppanel {
+	background: #ffffff url(../../images/white/toppanel_bg.png) 0 100% repeat-x;
+	color: #646464;	
+}
+
+div#toppanel .close {
+	border: 1px solid #646464;
+	background: #e6e6e6;
+}
+
+div#toppanel-container .trigger-l {
+	background: url(../../images/white/toppanel_trigger_l.png) 100% 0 repeat-x;
+}
+
+div#toppanel-container .trigger-r {
+	background: url(../../images/white/toppanel_trigger_r.png) 100% 0 repeat-x;
+}
+
+div#toppanel-container .trigger-m {
+	background: url(../../images/white/toppanel_trigger_m.png) 100% 0 repeat-x;
+	color: #323232;
+}
+
+div#page-header {
+	background: #ffffff url(../../images/white/page_header_bg.png) 50% 0 repeat-x;
+}
+
+div#date {
+	color: #000000;
+}
+
+a#switchfontsmall {
+	background: url(../../images/white/styleswitcher_fontsmall.png) 0 0 no-repeat;
+}
+
+a:hover#switchfontsmall {
+	background: url(../../images/white/styleswitcher_fontsmall_hover.png) 0 0 no-repeat;
+}
+
+a#switchfontmedium {
+	background: url(../../images/white/styleswitcher_fontmedium.png) 0 0 no-repeat;
+}
+
+a:hover#switchfontmedium {
+	background: url(../../images/white/styleswitcher_fontmedium_hover.png) 0 0 no-repeat;
+}
+
+a#switchfontlarge {
+	background: url(../../images/white/styleswitcher_fontlarge.png) 0 0 no-repeat;
+}
+
+a:hover#switchfontlarge {
+	background: url(../../images/white/styleswitcher_fontlarge_hover.png) 0 0 no-repeat;
+}
+
+a#switchwidththin {
+	background: url(../../images/white/styleswitcher_widththin.png) 0 0 no-repeat;
+}
+
+a:hover#switchwidththin {
+	background: url(../../images/white/styleswitcher_widththin_hover.png) 0 0 no-repeat;
+}
+
+a#switchwidthwide {
+	background: url(../../images/white/styleswitcher_widthwide.png) 0 0 no-repeat;
+}
+
+a:hover#switchwidthwide {
+	background: url(../../images/white/styleswitcher_widthwide_hover.png) 0 0 no-repeat;
+}
+
+a#switchwidthfluid {
+	background: url(../../images/white/styleswitcher_widthfluid.png) 0 0 no-repeat;
+}
+
+a:hover#switchwidthfluid {
+	background: url(../../images/white/styleswitcher_widthfluid_hover.png) 0 0 no-repeat;
+}
+
+div#page-body {
+	background: #ffffff;
+}
+
+span#logo {
+	background: url(../../images/white/logo.png) 0 0 no-repeat;
+}
+
+div#search {
+	border-top: 1px solid #C8C8C8;
+	border-left: 1px solid #C8C8C8;
+	border-right: 1px solid #C8C8C8;
+	background: #E6E6E6;
+}
+
+div#main {
+	background: #E6E6E6;
+}
+
+div#page-footer {
+	background: #ffffff;
+}

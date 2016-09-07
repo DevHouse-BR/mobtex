@@ -1,0 +1,64 @@
+/*
+ * YOOtheme CSS file
+ *
+ * @author yootheme.com
+ * @copyright Copyright (C) 2007 YOOtheme Ltd. & Co. KG. All rights reserved.
+ */ 
+
+#top div.moduletable {
+	border: 5px solid #E6E6E6;
+	background: #F0F0F0;
+}
+
+#left div.moduletable {
+	border: 1px solid #c8c8c8;
+	background: #ffffff;
+}
+
+#left div.moduletable h3 {
+	border-bottom: 1px solid #c8c8c8;
+	background: #E6E6E6;
+}
+
+#maintop div.moduletable, #mainbottom div.moduletable {
+	background: #F0F0F0;
+}
+
+#maintop div.moduletable h3, #mainbottom div.moduletable h3 {
+	background: #ffffff;
+	color: #323232;
+}
+
+#right div.module {
+	background: url(../../images/white/right_module_m.png) 0 0 repeat-y;
+}
+
+#right div.module div {
+	background: url(../../images/white/right_module_t.png) 0 0 no-repeat;
+}
+
+#right div.module div div {
+	background: url(../../images/white/right_module_b.png) 0 100% no-repeat;
+}
+
+#right div.module h3 {
+	background: url(../../images/white/right_module_header.png) 0 0 no-repeat;
+}
+
+#right div.module-slider h3 {
+	background: url(../../images/white/right_module_header.png) 0 0 no-repeat;
+}
+
+#contenttop div.moduletable, #contentbottom div.moduletable {
+	background: #F0F0F0;
+}
+
+#contenttop div.moduletable h3, #contentbottom div.moduletable h3 {
+	background: #ffffff;
+	color: #323232;
+}
+
+#bottom div.moduletable {
+	border: 5px solid #E6E6E6;
+	background: #F0F0F0;
+}

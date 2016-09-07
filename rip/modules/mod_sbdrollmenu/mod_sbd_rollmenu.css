@@ -1,0 +1,110 @@
+/* Warning - Editing below can break the script */
+.accordion-menu{
+	border-top: 1px solid #ffbc2d;
+	width:152px;
+}
+
+html.accordion-menu-js dd.a-m-d{
+	display:none;
+}
+
+html.accordion-menu-js dd.a-m-d-expand {
+	display:block;
+}
+
+html.accordion-menu-js dd.a-m-d-before-expand {
+	display:block;
+	position:relative;
+	z-index:-1;
+/*	opacity:0;*/
+	height:auto !important;
+	visibility:hidden;
+	overflow:visible;
+}
+
+html.accordion-menu-js dt.a-m-t-expand {
+	
+}
+
+html.accordion-menu-js dd.a-m-d-anim {
+	overflow:hidden;
+	display:block;	
+}
+
+dl.accordion-menu dd.a-m-d .bd{
+	/*font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px; */
+}
+/* Warning - Editing above can break the script */
+
+/* Editable section below */
+
+dl, dt, dd{
+	width: 152px;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+dl.accordion-menu dt {
+	color: #FFFFFF;
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 1px solid #ffbc2d;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	/*white-space: nowrap;*/
+}
+dl.accordion-menu dt:hover {
+	color: #FFFFFF;
+	font-size: 13px;
+	cursor: pointer;
+	display:block;
+	background-color:#2c2b27;
+}
+dl.accordion-menu dt a {
+	margin-left:9px;
+	color: #FFFFFF;
+	font-size: 13px;
+	text-decoration: none;
+}
+dl.accordion-menu dt a:hover {
+	color: #FFFFFF;
+	font-size: 13px;
+}
+dl.accordion-menu dd {
+	/*line-height: 12px;*/
+	padding-left: 0px;
+	font-size:12px;
+	font-weight:normal;
+}
+dl.accordion-menu dd a {
+	color: #FFFFFF;
+	font-size: 11px;
+	text-decoration: none;
+	display: block;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	border-bottom: 1px solid #af5117;
+	height: 30px;
+	line-height: 30px;
+	padding-left:32px;
+}
+dl.accordion-menu dd a:hover {
+	color: #FFFFFF;
+	background-color:#2c2b27;
+}
+span.rollmainlevel{
+	cursor: pointer;
+}
+
+/* Example CSS to control active menu/submenu a link */
+#active_roll_menu {
+	color: #FFFFFF;
+}
+a:hover#active_roll_menu {
+	color: #FFFFFF;
+}
+/* Example CSS to override CSS for top level expanded menu */
+#activeparent_roll_menu{
+	color: #00ff00;
+}

@@ -1,0 +1,104 @@
+/*
+ * YOOtheme CSS file
+ *
+ * @author yootheme.com
+ * @copyright Copyright (C) 2007 YOOtheme Ltd. & Co. KG. All rights reserved.
+ */ 
+
+body.yellow a:link, body.yellow a:visited { color: #f0aa00; }
+body.yellow a:hover { color: #ffc800; }
+
+div.note {
+	border: 1px solid #b4b4b4;
+	background: #dcdcdc;
+}
+
+div.alert {
+	border: 1px solid #b4b4b4;
+	background: #dcdcdc url(../../images/white/div_alert.png) 3px 3px no-repeat;
+}
+
+div.download {
+	border: 1px solid #b4b4b4;
+	background: #dcdcdc url(../../images/white/div_download.png) 3px 3px no-repeat;
+}
+
+div.info {
+	border: 1px solid #b4b4b4;
+	background: #dcdcdc url(../../images/white/div_info.png) 3px 3px no-repeat;
+}
+
+div.tip {
+	border: 1px solid #b4b4b4;
+	background: #dcdcdc url(../../images/white/div_tip.png) 3px 3px no-repeat;
+}
+
+ul.checkbox li {
+	background: url(../../images/white/list_checkbox.png) 0 0 no-repeat;
+}
+
+ul.checkbox-big li {
+	background: url(../../images/white/list_checkbox_big.png) 0 0 no-repeat;
+}
+
+ul.arrow li {
+	background: url(../../images/white/list_arrow.png) 0 0 no-repeat;
+}
+
+ul.arrow-big li {
+	background: url(../../images/white/list_arrow_big.png) 0 0 no-repeat;
+}
+
+ol.disc {
+	background: url(../../images/white/list_disc.png) 0 0 repeat-y;
+}
+
+ol.disc-big {
+	background: url(../../images/white/list_disc_big.png) 0 0 repeat-y;
+}
+
+blockquote {
+	background: url(../../images/white/blockquote_start.png) 0 0 no-repeat;
+}
+
+blockquote div {
+	background: url(../../images/white/blockquote_end.png) 100% 100% no-repeat;
+}
+
+blockquote.big {
+	background: url(../../images/white/blockquote_big_start.png) 0 0 no-repeat;
+}
+
+blockquote.big div {
+	background: url(../../images/white/blockquote_big_end.png) 100% 100% no-repeat;
+}
+
+pre {
+	border: 1px solid #b4b4b4;
+	border-left: 20px solid #b4b4b4;
+	background: #dcdcdc;
+	color: #646464;
+}
+
+em.box { 
+	background:#fafafa;
+	border: 1px #b4b4b4 solid;
+}
+
+em.file { 
+	color: #000000;
+}
+
+em.directory { 
+	color: #000000;
+}
+
+h2 {
+	color: #969696;
+}
+
+h5 {
+	color: #323232;
+}
+
+body.yellow h1, body.yellow h4, body.yellow h6 { color: #ffc800; }

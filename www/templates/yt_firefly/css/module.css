@@ -1,0 +1,232 @@
+/*
+ * YOOtheme CSS file
+ *
+ * @author yootheme.com
+ * @copyright Copyright (C) 2007 YOOtheme Ltd. & Co. KG. All rights reserved.
+ */ 
+
+div.moduletable h3,
+div.moduletable-blank h3,
+div.module h3,
+div.module-slider h3,
+div.module-blank h3 {
+	font-size: 100%;
+}
+
+/* toppanel modules */
+#toppanel div.moduletable {
+	margin: 0px 0px 10px 0px;
+}
+
+#toppanel div.moduletable h3 {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 10px 0px;
+	text-align: left;
+	font-size: 150%;
+	font-weight: bold;
+}
+
+/* top modules */
+#top div.moduletable {
+	padding: 10px 15px 10px 15px;
+	border: 5px solid #1E1E1E;
+	background: #141414;
+	text-align: justify;
+}
+
+
+#top .topboxseperator div.moduletable {
+	margin: 0px 10px 0px 0px;
+}
+
+#top div.moduletable h3 {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 5px 0px;
+	text-align: left;
+	font-size: 125%;
+	font-weight: bold;
+}
+
+/* blank */
+#top div.moduletable-blank {
+	padding: 0px 0px 0px 0px;
+}
+
+/* left modules */
+#left div.moduletable {
+	margin: 0px 0px 20px 10px;
+	padding: 10px 10px 10px 10px;
+	width: 168px;
+	border: 1px solid #323232;
+	background: #000000;
+	overflow: hidden;
+}
+
+.layoutright #left div.moduletable {
+	margin: 0px 10px 20px 0px;
+}
+
+#left div.moduletable h3 {
+	margin: -10px -10px 10px -10px;
+	padding: 0px 0px 0px 10px;
+	height: 24px;
+	border-bottom: 1px solid #323232;
+	background: #1E1E1E;
+	line-height: 25px;
+	text-align: left;
+	font-weight: bold;
+}
+
+/* blank */
+#left div.moduletable-blank {
+	margin: 0px 0px 10px 10px;
+	padding: 0px 0px 0px 0px;
+	width: 190px;
+	overflow: hidden;
+}
+
+.layoutright #left div.moduletable-blank {
+	margin: 0px 10px 10px 0px;
+}
+
+/* maintopbox & mainbottombox modules */
+#maintop div.moduletable, #mainbottom div.moduletable {
+	margin: 0px 10px 0px 10px;
+	padding: 10px 15px 10px 15px;
+	background: #141414;
+	overflow: hidden;
+	text-align:justify;
+}
+
+#maintop .maintopboxseperator div.moduletable, #mainbottom .mainbottomboxseperator div.moduletable {
+	margin: 0px 0px 0px 10px;
+}
+
+#maintop div.moduletable h3, #mainbottom div.moduletable h3 {
+	margin: -10px -15px 10px -15px;
+	padding: 0px 0px 0px 15px;
+	background: #000000;
+	height: 25px;
+	line-height: 25px;
+	text-align: left;
+	font-weight: bold;
+	color: #c8a046;
+}
+
+/* blank */
+#maintop div.moduletable-blank, #mainbottom div.moduletable-blank {
+	margin: 0px 10px 0px 10px;
+	padding: 0px 0px 0px 0px;
+	overflow: hidden;
+}
+
+/* right modules */
+#right div.module {
+	margin: 0px 0px 20px 0px;
+	background: url(../images/right_module_m.png) 0 0 repeat-y;
+}
+
+#right div.module div {
+	background: url(../images/right_module_t.png) 0 0 no-repeat;
+}
+
+#right div.module div div {
+	background: url(../images/right_module_b.png) 0 100% no-repeat;
+}
+
+#right div.module div div div {
+	width: 160px;
+	padding: 10px 10px 10px 10px;
+	overflow: hidden;
+}
+
+#right div.module div div div div {
+	padding: 0px 0px 0px 0px;
+	background: none;
+}
+
+#right div.module h3 {
+	height: 20px;
+	margin: -10px -10px 5px -10px;
+	padding: 0px 0px 5px 10px;
+	background: url(../images/right_module_header.png) 0 0 no-repeat;
+	line-height: 25px;
+	text-align: left;
+	font-weight: bold;
+}
+
+/* slider */
+#right div.module-slider {
+	margin: 0px 0px 20px 0px;
+}
+
+#right div.module-slider h3 {
+	height: 20px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 5px 10px;
+	background: url(../images/right_module_header.png) 0 0 no-repeat;
+	line-height: 25px;
+	text-align: left;
+	font-weight: bold;
+}
+
+/* blank */
+#right div.module-blank {
+	padding: 0px 0px 0px 0px;
+}
+
+/* contenttopbox & contentbottombox modules */
+#contenttop div.moduletable, #contentbottom div.moduletable {
+	margin: 0px 0px 0px 0px;
+	padding: 10px 15px 10px 15px;
+	background: #141414;
+	overflow: hidden;
+	text-align:justify;
+}
+
+#contenttop .contenttopboxseperator div.moduletable, #contentbottom .contentbottomboxseperator div.moduletable {
+	margin: 0px 10px 0px 0px;
+}
+
+#contenttop div.moduletable h3, #contentbottom div.moduletable h3 {
+	margin: -10px -15px 10px -15px;
+	padding: 0px 0px 0px 15px;
+	background: #000000;
+	height: 25px;
+	line-height: 25px;
+	text-align: left;
+	font-weight: bold;
+	color: #c8a046;
+}
+
+/* blank */
+#contenttop div.moduletable-blank, #contentbottom div.moduletable-blank {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	overflow: hidden;
+}
+
+/* bottom modules */
+#bottom div.moduletable {
+	padding: 10px 15px 10px 15px;
+	border: 5px solid #1E1E1E;
+	background: #141414;
+	text-align: center;
+}
+
+#bottom .bottomboxseperator div.moduletable {
+	margin: 0px 10px 0px 0px;
+}
+
+#bottom div.moduletable h3 {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 5px 0px;
+	text-align: center;
+	font-size: 125%;
+	font-weight: bold;
+}
+
+/* blank */
+#bottom div.moduletable-blank {
+	padding: 0px 0px 0px 0px;
+}

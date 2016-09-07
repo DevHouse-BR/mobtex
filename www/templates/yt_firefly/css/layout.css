@@ -1,0 +1,520 @@
+/*
+ * YOOtheme CSS file
+ *
+ * @author yootheme.com
+ * @copyright Copyright (C) 2007 YOOtheme Ltd. & Co. KG. All rights reserved.
+ */ 
+
+/* reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+	margin: 0; 
+	padding: 0;
+}
+
+fieldset,img {  
+	border: 0; 
+} 
+
+option {
+	padding-left: 0.4em;
+}
+
+html {
+	height: 100%;
+	margin-bottom: 1px;
+}
+	
+body { 
+	position: relative; 
+} 
+	
+/* page setup */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 150%;
+	color: #646464;
+}
+
+body#page {
+	background: #000000;
+}
+
+/* set body font size (styleswitcher) */
+body.font-small {
+	font-size: 11px;
+}
+
+body.font-medium {
+	font-size: 12px;
+}
+
+body.font-large {
+	font-size: 13px;
+}
+
+/* set body width (styleswitcher) */
+body.width-thin div.wrapper {
+	width: 780px;
+}
+
+body.width-wide div.wrapper {
+	width: 940px;
+}
+
+body.width-fluid div.wrapper {
+	width: 90%;
+}
+
+div#dogear {
+	position: absolute;
+	z-index: 20;
+	top: 0px;
+	left: 0px;
+	width: 135px;
+	height: 135px;
+}
+
+div#dogear img {
+	width: 135px;
+	height: 135px;
+}
+
+div#toppanel-container {
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	margin-left: -50%;
+	width: 100%;
+	height: 0px;
+	z-index: 15;
+}
+
+div#toppanel-wrapper {
+	height: 0px;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+div#toppanel {
+	position: relative;
+	z-index: 15;
+	margin-top: -320px;
+	width: 100%;
+	height: 320px;
+	background: #000000 url(../images/toppanel_bg.png) 0 100% repeat-x;
+	color: #969696;	
+}
+
+div#toppanel .panel {
+	margin: auto;
+	width: 600px;
+	height: 300px;
+	padding: 0px 0px 0px 0px;
+	overflow: hidden;
+}
+
+div#toppanel .close {
+	width: 50px;
+	height: 15px;
+	margin-top: 23px;
+	padding: 0px 0px 0px 0px;
+	border: 1px solid #646464;
+	background: #1e1e1e;
+	float: right;
+	overflow: hidden;
+	text-align: center;
+	font-size: 85%;
+	line-height: 150%;
+	cursor: pointer;
+}
+
+div#toppanel .cpanel {
+	clear: both;
+}
+
+div#toppanel-container .trigger {
+	position: relative;
+	z-index: 16;
+	top: 0px;
+	left: 50%;
+	width: 120px;
+	margin-left: -60px;
+	cursor: pointer;
+}
+
+div#toppanel-container .trigger img {
+	width: 20px;
+	height: 19px;
+	border: 0px;
+}
+
+div#toppanel-container .trigger-l, div#toppanel-container .trigger-r {
+	width: 20px;
+	height: 19px;
+	float: left;
+}
+
+div#toppanel-container .trigger-l {
+	background: url(../images/toppanel_trigger_l.png) 100% 0 repeat-x;
+}
+
+div#toppanel-container .trigger-r {
+	background: url(../images/toppanel_trigger_r.png) 100% 0 repeat-x;
+}
+
+div#toppanel-container .trigger-m {
+	width: 80px;
+	height: 19px;
+	background: url(../images/toppanel_trigger_m.png) 100% 0 repeat-x;
+	float: left;
+	text-align: center;
+	font-size: 85%;
+	line-height: 150%;
+	overflow: hidden;
+	color: #ffffff;
+}
+
+/* layout */
+div.wrapper {
+	margin: auto;
+}
+
+div#page-header {
+	background: #000000 url(../images/page_header_bg.png) 50% 0 repeat-x;
+}
+
+div#header {
+	width: auto;
+	height: 140px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 10px 0px 10px;
+	position: relative;
+	z-index: 10;
+	clear: both;
+}
+
+div#date {
+	margin: 6px 20px 0px 0px;
+	float: left;
+	font-size: 85%;
+	color: #ffffff;
+}
+
+div#topmenu {
+	margin: 6px 0px 0px 0px;
+	float: left;
+}
+
+div#topmodule {
+	height: 18px;
+	margin: 7px 0px 0px 20px;
+	float: right;
+}
+
+div#styleswitcher {
+	width: 45px;
+	height: 20px;
+	margin: 7px 0px 0px 20px;
+	float: right;
+}
+
+div#styleswitcher a {
+	width: 15px;
+	height: 20px;
+	float: right;
+	text-decoration: none;
+	display: block;
+}
+
+a#switchfontsmall {
+	background: url(../images/styleswitcher_fontsmall.png) 0 0 no-repeat;
+}
+
+a:hover#switchfontsmall {
+	background: url(../images/styleswitcher_fontsmall_hover.png) 0 0 no-repeat;
+}
+
+a#switchfontmedium {
+	background: url(../images/styleswitcher_fontmedium.png) 0 0 no-repeat;
+}
+
+a:hover#switchfontmedium {
+	background: url(../images/styleswitcher_fontmedium_hover.png) 0 0 no-repeat;
+}
+
+a#switchfontlarge {
+	background: url(../images/styleswitcher_fontlarge.png) 0 0 no-repeat;
+}
+
+a:hover#switchfontlarge {
+	background: url(../images/styleswitcher_fontlarge_hover.png) 0 0 no-repeat;
+}
+
+a#switchwidththin {
+	background: url(../images/styleswitcher_widththin.png) 0 0 no-repeat;
+}
+
+a:hover#switchwidththin {
+	background: url(../images/styleswitcher_widththin_hover.png) 0 0 no-repeat;
+}
+
+a#switchwidthwide {
+	background: url(../images/styleswitcher_widthwide.png) 0 0 no-repeat;
+}
+
+a:hover#switchwidthwide {
+	background: url(../images/styleswitcher_widthwide_hover.png) 0 0 no-repeat;
+}
+
+a#switchwidthfluid {
+	background: url(../images/styleswitcher_widthfluid.png) 0 0 no-repeat;
+}
+
+a:hover#switchwidthfluid {
+	background: url(../images/styleswitcher_widthfluid_hover.png) 0 0 no-repeat;
+}
+
+div#page-body {
+	background: #000000;
+}
+
+span#logo {
+	position: absolute;
+	top: 20px;
+	left: -50px;
+	width: 300px;
+	height: 110px;
+	background: url(../images/logo.png) 0 0 no-repeat;
+	z-index: 3;
+	display: block;
+}
+
+div#banner {
+	position: absolute;
+	top: 75px;
+	right: -70px;
+	z-index: 3;
+}
+
+div#menu {
+	position: absolute;
+	top: 100px;
+	right: 10px;
+	height: 40px;
+}
+
+div#search {
+	margin: 5px 0px 0px 5px;
+	width: 98px;
+	height: 24px;
+	border-top: 1px solid #282828;
+	border-left: 1px solid #282828;
+	border-right: 1px solid #282828;
+	background: #1E1E1E;
+	float: right;
+}
+
+div#top {
+	width: auto;
+	padding: 10px 10px 0px 10px;
+	clear: both;
+}
+
+div#top .topbox {
+}
+
+div#top .topboxseperator {
+}
+
+div#middle {
+	width: auto;
+	margin: 10px 0px 0px 0px;
+	clear: both;
+}
+
+div#middle .background {
+	min-height: 140px;
+}
+
+div#middle .layoutleft {
+	background: none;
+	padding: 0px 10px 0px 0px;
+}
+
+div#middle .layoutright {
+	background: none;
+	padding: 0px 0px 0px 10px;
+}
+
+div#middle .withoutleft {
+	background: none;
+	padding: 0px 10px 0px 10px;
+}
+
+div#left {
+	width: 200px;
+}
+
+div#middle .layoutleft div#left {
+	float: left;
+}
+
+div#middle .layoutright div#left {
+	float: right;
+}
+
+div#submenu, div#othermenu {
+	width: 200px;
+	margin: 0px 0px 20px 0px;
+	padding: 0px 0px 0px 0px;
+	overflow: hidden;
+}
+
+div#main {
+	width: auto;
+	background: #1e1e1e;
+}
+
+div#middle .layoutleft div#main {
+	margin: 0px 0px 0px 210px;
+	padding: 0px 0px 0px 0px;
+}
+
+div#middle .layoutright div#main {
+	margin: 0px 210px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+div#middle .withoutleft div#main {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+div#maintop {
+}
+
+div#maintop .maintopbox {
+	margin: 10px 0px 0px 0px;
+}
+
+div#maintop .maintopboxseperator {
+}
+
+div#mainmiddle {
+	margin: 0px 0px 0px 0px;
+}
+
+div#main .withright {
+	background: transparent;
+}
+
+div#main .withoutright {
+	background: transparent;
+}
+
+div#right {
+	width: 180px;
+	margin: 10px 10px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	float: right;
+}
+	
+div#content {
+	width: auto;
+}
+
+div#main .withright div#content {
+	margin: 0px 190px 0px 0px;
+	padding: 10px 10px 10px 10px;
+}
+
+div#main .withoutright div#content {
+	margin: 0px 0px 0px 0px;
+	padding: 10px 10px 10px 10px;
+}
+
+div#contenttop {
+	margin: 0px 0px 10px 0px;
+}
+
+div#contenttop .contenttopbox {
+}
+
+div#contenttop .contenttopboxseperator {
+}
+
+div#breadcrumb {
+	height: 19px;
+	font-size: 85%;
+	color: #646464;
+}
+
+div#contentbottom {
+	margin: 10px 0px 0px 0px;
+}
+
+div#contentbottom .ccontentbottombox {
+}
+
+div#contentbottom .contentbottomboxseperator {
+}
+
+div#mainbottom {
+}
+
+div#mainbottom .mainbottombox {
+	padding: 0px 0px 10px 0px;
+}
+
+div#mainbottom .mainbottomboxseperator {
+}
+
+div#bottom {
+	width: auto;
+	padding: 10px 10px 0px 10px;
+	clear: both;
+}
+
+div#bottom .bottombox {
+}
+
+div#bottom .bottomboxseperator {
+}
+
+div#page-footer {
+	background: #000000;
+}
+
+div#footer {
+	width: auto;
+	min-height: 100px;
+	padding: 10px 0px 50px 0px;
+	clear: both;
+	text-align: center;
+}
+
+/* clearing & floating */
+.clearingfix:after {
+	content: "."; 
+	display: block; 
+	line-height: 0px;
+	clear: both; 
+	visibility: hidden;
+}
+	
+.clearingfix { display: block; }
+
+.floatbox { overflow: hidden; }
+
+.float-left { float: left; overflow: hidden; }
+.float-right { float: right; overflow: hidden; }
+
+.width20 { width: 19.999%; }
+.width25 { width: 24.999%; }
+.width33 { width: 33.333%; }
+.width50 { width: 49.999%; }
+.width66 { width: 66.666%; }
+.width75 { width: 74.999%; }
+.width100 { width: 100%; }

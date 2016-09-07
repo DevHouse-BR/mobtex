@@ -1,0 +1,164 @@
+/*
+ * YOOtheme CSS file
+ *
+ * @author yootheme.com
+ * @copyright Copyright (C) 2007 YOOtheme Ltd. & Co. KG. All rights reserved.
+ */ 
+
+div.search {
+	margin: 2px 0px 0px 2px;
+	padding: 0px;
+	width: 94px;
+	height: 22px;
+	background: #141414;
+}
+
+div.search input.inputbox {
+	width: 67px;
+	height: 15px;
+	padding: 5px 2px 2px 7px;
+	border: none;
+	background: none;
+	float: left;
+	color: #646464;
+	font-size: 100%;
+}
+
+div.search input.button {
+	width: 18px;
+	height: 22px;
+	border: none;
+	background: url(../images/search_button.png) 0 0 no-repeat;
+	cursor: pointer;
+	text-indent: 100px;
+	line-height: 0px;
+}
+
+div.search:hover, div#search div.sfhover  {
+	background: #000000;
+}
+
+div.search input:hover, div.search input.sfhover  {
+	color: #FFFFAA;
+}
+
+div.search input:focus, div.search input.sffocus  {
+	color: #FFFFAA;
+}
+
+.contentheading,
+.componentheading {
+	margin: 0px 0px 0px 0px;
+	padding: 5px 0px 5px 0px;
+	font-family: Arial Narrow, Arial, Helvetica, sans-serif;
+	font-size: 250%;
+	line-height: 100%;
+	font-weight: bold;
+	color: #eb7800;
+}
+
+body.green .contentheading, body.green .componentheading { color: #c8dc00; }
+body.pink .contentheading, body.pink .componentheading { color: #dc6eff; }
+body.yellow .contentheading, body.yellow .componentheading { color: #e6c832; }
+body.blue .contentheading, body.blue .componentheading { color: #4696e6; }
+
+#overDiv {
+	line-height: 50%;
+	font-weight: normal;
+	padding: 0px;
+	margin: 0px;
+}
+
+.contentpane {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.contentpaneopen {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.contentpaneopen hr {
+	border-top: 0px;
+	border-right: 0px;
+	border-bottom: 1px solid #c8c8c8;
+	border-left: 0px;
+	line-height: 0px;
+	height: 1px;
+}
+
+.article_seperator {
+	display: block;
+	height: 16px;
+}
+
+.small {
+	font-size: 95%;
+	font-style: italic;
+	color: #969696;
+}
+
+.createdate {
+	height: 20px;
+	vertical-align: top;
+	font-size: 95%;
+	font-weight: bold;
+	color: #646464;
+}
+
+.modifydate {
+	height: 20px;
+	vertical-align: bottom;
+	font-size: 95%;
+	color: #646464;
+}
+
+.buttonheading img {
+	margin-right: 2px;
+}
+
+.mosimage_caption {
+	font-size: 95%;
+}
+
+.button {
+	font-size: 95%;
+}
+
+.sectiontableheader {
+	padding: 5px 5px 5px 5px;
+	background: #000000;
+	border-bottom: 1px solid #141414;
+	font-weight : bold;
+}
+
+tr.sectiontableentry1 td {
+	padding: 5px 5px 5px 5px;
+	background: #282828;
+	border-bottom: 1px solid #141414;
+}
+
+tr.sectiontableentry2 td {
+	padding: 5px 5px 5px 5px;
+	background: #323232;
+	border-bottom: 1px solid #141414;
+}
+
+td.sectiontableentry1 {
+	padding: 5px 5px 5px 5px;
+	background: #282828;
+	border-bottom: 1px solid #141414;
+}
+
+td.sectiontableentry2 {
+	padding: 5px 5px 5px 5px;
+	background: #323232;
+	border-bottom: 1px solid #141414;
+}
+
+.poll input.button {
+	margin: 10px 0px 0px 0px;
+}

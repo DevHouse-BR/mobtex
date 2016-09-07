@@ -1,0 +1,24 @@
+/*
+ * YOOtheme CSS file
+ *
+ * @author yootheme.com
+ * @copyright Copyright (C) 2007 YOOtheme Ltd. & Co. KG. All rights reserved.
+ */ 
+
+/* layout styling */
+@import url(white-layout.css);
+
+/* general tag styling */
+@import url(white-general.css);
+
+/* menu styling */
+@import url(white-menu.css);
+
+/* module styling */
+@import url(white-module.css);
+
+/* Joomla core styling */
+@import url(white-joomla.css);
+
+/* Third party extensions styling */
+@import url(white-extensions.css);
